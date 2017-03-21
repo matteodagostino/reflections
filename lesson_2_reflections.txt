@@ -13,3 +13,7 @@ file che intendiamo inviare per il prossimo commit.
 How can you use the staging area to make sure you have one commit per logical change?
 Con l'area di staging è possibile avere in un unico luogo tutti i file con le modifiche
 effettuate, in modo da poter verificare le modifiche prima di fare un commit 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+I branches sono utili quando vogliamo testare due versioni differenti dello
+stesso software senza per questo perdere la versione master o uno dei due test
