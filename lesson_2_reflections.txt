@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Quando viene inizializzata una repository viene cretao un file .git
+contenente i meta dati necessari a tracciare la storia della repository, ma 
+non viene creato nessun commit e vengono mostrati con git log i file
+come ancora non tracciati (untracked files)
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+La staging area è un'area di raccolta di file che precede l'inpacchettamento in un commit. 
+Nella working directory possono esserci molti file, ma inseriremo nella staging area solo i
+file che intendiamo inviare per il prossimo commit.
