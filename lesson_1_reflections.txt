@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Esplorando le righe differenti è più facile individuare
+    le differenze non volute ma dovute a errori tipografici
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Potrò sempre confrontare le varie versioni  tornare a versioni 
+    precedenti e ricordare passati errori o miglioramenti e riflettere
+    sul mio percorso per arrivare al punto attuale
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Il salvataggio automatico sembra migliore ma salverà molte versioni inutili
+    e nel caso della programmazione mi interessa avere punti versioni legate
+    a modifiche di una certa rilevanza logica per non perdere il controllo
+    della storia e del versioning
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I sistemi di controllo versione legati alla programmazione necessitano
+    di tracciare modifiche logiche ottenute modificando più file, mentre 
+    i sistemi legati a documenti specifici non necessitano di questo
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log mi permette di vedere la lista di tutti i commit. Tramite l'ID di ogni 
+commit e tramite il comando git diff potrò poi trovare le differenze specifiche
+tra due commit
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Tramite il version control è sempre possibile confrontare le modifiche effettuate
+e ritornare ad una versione funzionante del programma per poi analizzare in
+dettaglio la causa del problema visualizzando le modifiche esatte che hanno portato
+a quel problema
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Voglio provare ad utilizzarlo per i prossimi progetti legato di programmazione
+web legati al lavoro o ai corsi che sto facendo
