@@ -17,3 +17,7 @@ effettuate, in modo da poter verificare le modifiche prima di fare un commit
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 I branches sono utili quando vogliamo testare due versioni differenti dello
 stesso software senza per questo perdere la versione master o uno dei due test
+
+How do the diagrams help you visualize the branch structure?
+Con il diagramma riesco a capire in modo visuale la struttura della repository evitando
+di lavorare su commit privi di un branch perdendo così le modifiche.
