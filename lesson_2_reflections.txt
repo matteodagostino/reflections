@@ -27,3 +27,7 @@ tutti i commit dei due branch vengono salvati nel branch in cui mi trovo nel
 momento in cui faccio il merge. Se poi cancello il branch che ho inserito in 
 quello principale potrò comunque rivedre l'intera storia, così come reso evidente dal
 diagramma
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Il merging automatico semplifica il lavoro ma porta a rischi di interpretazione da
+parte di GIT che potrebbero causare salvataggi di commit non funzionanti.
