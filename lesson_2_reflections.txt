@@ -21,3 +21,9 @@ stesso software senza per questo perdere la versione master o uno dei due test
 How do the diagrams help you visualize the branch structure?
 Con il diagramma riesco a capire in modo visuale la struttura della repository evitando
 di lavorare su commit privi di un branch perdendo così le modifiche.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+tutti i commit dei due branch vengono salvati nel branch in cui mi trovo nel
+momento in cui faccio il merge. Se poi cancello il branch che ho inserito in 
+quello principale potrò comunque rivedre l'intera storia, così come reso evidente dal
+diagramma
