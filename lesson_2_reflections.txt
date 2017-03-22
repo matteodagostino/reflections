@@ -1,33 +1,39 @@
 What happens when you initialize a repository? Why do you need to do it?
-
-Quando viene inizializzata una repository viene cretao un file .git
+Quando viene inizializzata una repository viene creato un file .git
 contenente i meta dati necessari a tracciare la storia della repository, ma 
 non viene creato nessun commit e vengono mostrati con git log i file
 come ancora non tracciati (untracked files)
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 La staging area è un'area di raccolta di file che precede l'impacchettamento in un commit. 
-Nella working directory possono esserci molti file, ma inseriremo nella staging area solo i
-file che intendiamo inviare per il prossimo commit.
+Nella working directory possono esserci molti file, ma inseriremo nella staging area solo i file
+che intendiamo inviare per il prossimo commit.
 
 How can you use the staging area to make sure you have one commit per logical change?
-Con l'area di staging è possibile avere in un unico luogo tutti i file con le modifiche
-effettuate, in modo da poter verificare le modifiche prima di fare un commit 
+Con l'area di staging è possibile avere in un’unica area tutti i file modificati che intendiamo
+inviare in un determinato commit, in modo da poter verificare le modifiche prima di fare un commit
+e da poter includere in ogni commit solo i file
+che riguardano un determinato tipo di modifica logica e non necessariamente tutti i file
+modificati nella working directory. 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 I branches sono utili quando vogliamo testare due versioni differenti dello
-stesso software senza per questo perdere la versione master o uno dei due test
+stesso software senza per questo perdere la versione master o uno dei due test. Un’altra situazione
+è quella relativa alla risoluzione di un bug o al lavoro contemporaneo sulla stessa repository da parte di più utenti.
 
 How do the diagrams help you visualize the branch structure?
 Con il diagramma riesco a capire in modo visuale la struttura della repository evitando
-di lavorare su commit privi di un branch perdendo così le modifiche.
+di lavorare su commit privi di un branch (detached HEAD' state) rischiando di perdere
+le modifiche.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-tutti i commit dei due branch vengono salvati nel branch in cui mi trovo nel
+Tutti i commit dei due branch vengono salvati nel branch in cui mi trovo nel
 momento in cui faccio il merge. Se poi cancello il branch che ho inserito in 
-quello principale potrò comunque rivedre l'intera storia, così come reso evidente dal
+quello principale potrò comunque rivedere l'intera storia, cioè tutti i commit, anche 
+quelli che erano parte del branch eliminato, così come reso evidente dal
 diagramma
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-Il merging automatico semplifica il lavoro ma porta a rischi di interpretazione da
-parte di GIT che potrebbero causare salvataggi di commit non funzionanti.
+Il merging automatico semplifica il lavoro, ma porta a rischi di interpretazione da
+parte di GIT che potrebbero causare salvataggi di commit non funzionanti. La segnalazione
+di conflitti è quindi preferibile.

@@ -4,12 +4,16 @@ E' utile utilizzare repository remote nel caso di progetti complessi su cui
 lavorano più utenti, anche modificando gli stessi stessi file contemporaneamente.
 Le repository locali vanno bene per progetti su cui lavora un singolo utente.
 
-    Fill in your answer here
-
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
+Il concetto è che i commit vanno effettuati a seguito di una modifica che
+corrisponde ad un'unità logica chiara al fine di mantenere ordine e poter 
+avere controllo sul progetto. Nel caso di modifiche sugli stessi file da
+locale e da remoto, un salvataggio automatico in locale delle modifiche remote 
+porterebbe solo a maggior confusione con rischi di errori.
+In particolare le modifiche nel remote potrebbero essere state effettuate
+da altri utenti dato che possono essere pubbliche.
 
-    Fill in your answer here
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
