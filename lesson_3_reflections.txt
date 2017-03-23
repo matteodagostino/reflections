@@ -18,7 +18,11 @@ da altri utenti dato che possono essere pubbliche.
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+I cloni sono copie esatte di una repository fatte da una ,acchina locale
+oppure remota (es. da GitHub). I fork sono una sorta di clone
+fatto però esclusivamente tra repository remote, entrambe in in GitHub.
+I branch sono rami di una repository, sono inclusi in una repository.
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
