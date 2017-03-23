@@ -17,7 +17,6 @@ da altri utenti dato che possono essere pubbliche.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
 I cloni sono copie esatte di una repository fatte da una ,acchina locale
 oppure remota (es. da GitHub). I fork sono una sorta di clone
 fatto però esclusivamente tra repository remote, entrambe in in GitHub.
@@ -26,7 +25,6 @@ I branch sono rami di una repository, sono inclusi in una repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
 Avere una copia locale dell'ultimo stato conosciuto del remote è utile
 per agevolare il merge tra versione locale e versione remota qualora
 entrambe siano state aggiornate e contengano dei commit non condivisi.
@@ -36,8 +34,11 @@ eventuali conflitti
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
+Collaborare senza usare Git, renderebbe difficile lavorare sui file perché
+si dovrebbe sempre lavorare esclusivamente online, mentre collaborare senza
+usare GitHub ma solo Git, non consentirebbe di eseguire le Pull requests
+e quindi di chiedere un'opinione prima di effettuare un aggiornamento da remoto.
 
-    Fill in your answer here
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
