@@ -27,7 +27,12 @@ I branch sono rami di una repository, sono inclusi in una repository.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+Avere una copia locale dell'ultimo stato conosciuto del remote è utile
+per agevolare il merge tra versione locale e versione remota qualora
+entrambe siano state aggiornate e contengano dei commit non condivisi.
+Potrò infatti aggiungere all'origin/master locale, tramite il comando fetch,
+i commit remoti, per poi effettuare un merge con il master locale, risolvendo
+eventuali conflitti
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
