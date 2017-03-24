@@ -17,7 +17,7 @@ da altri utenti dato che possono essere pubbliche.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-I cloni sono copie esatte di una repository fatte da una ,acchina locale
+I cloni sono copie esatte di una repository fatte da una macchina locale
 oppure remota (es. da GitHub). I fork sono una sorta di clone
 fatto però esclusivamente tra repository remote, entrambe in in GitHub.
 I branch sono rami di una repository, sono inclusi in una repository.
@@ -30,7 +30,8 @@ per agevolare il merge tra versione locale e versione remota qualora
 entrambe siano state aggiornate e contengano dei commit non condivisi.
 Potrò infatti aggiungere all'origin/master locale, tramite il comando fetch,
 i commit remoti, per poi effettuare un merge con il master locale, risolvendo
-eventuali conflitti
+eventuali conflitti. Il comando git pull fa lo stesso lavoro:
+git pull origin master = (git fecth origin  + git merge master origin/master)
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
@@ -42,5 +43,13 @@ e quindi di chiedere un'opinione prima di effettuare un aggiornamento da remoto.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+Come visto nella riflessione 4 della lezione 2, in generale lavorare su branch
+separato è utile quando vogliamo testare due versioni differenti dello
+stesso software o quando dobbiamo risolvere un bug o se dobbiamo lavorare su una
+repository contemporaneamentecon altri utenti remoti.
+Aggiungiamo ora che lavorando da remoto su un branch differente dal master, potremo
+in seguito inviare il commit su remote (git push), su branch separato 
+(git push origin nomeBranchSeparato), per poi fare una "pull request" e far controllare
+ai collaboratori le modifiche effettuate prima di fare unirle al master
 
-    Fill in your answer here
+
